@@ -23,6 +23,11 @@ namespace WeatherApp.Controllers
             return View();
         }
 
+        public IActionResult GetWeather()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
